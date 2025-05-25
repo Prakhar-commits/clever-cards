@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 
@@ -8,7 +9,7 @@ const Endorsements = () => (
   <section className="w-full flex flex-col items-center justify-center py-4 px-4">
     <div className="my-2 flex justify-center">
       <Image
-        src="/endorsed.png"
+        src="/Frame 1000009140.png"
         alt="Endorsed Companies"
         className="max-w-full h-auto my-8"
         width={1200}
@@ -21,4 +22,4 @@ const Endorsements = () => (
   </section>
 );
 
-export default Endorsements; 
+export default Endorsements;
